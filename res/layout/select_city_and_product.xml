@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#ffe2e2e2"
+              android:divider="#ff363636">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Select City"
+            android:id="@+id/textView"
+            android:background="#ffe2e2e2"
+            android:autoText="false"
+            android:paddingLeft="10dp"
+            android:textColor="#f50057"
+            android:textSize="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp"
+            android:password="false"/>
+
+    <AutoCompleteTextView
+                android:id="@+id/autocomplete_city"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:singleLine="true"
+                android:selectAllOnFocus="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/box"
+                android:textColor="#000000"
+                android:paddingLeft="5dp"/>
+
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Select Product"
+            android:id="@+id/textView2"
+            android:paddingLeft="10dp"
+            android:background="#ffe2e2e2"
+            android:textColor="#f50057"
+            android:layout_marginTop="30dp"
+            android:textSize="30dp"
+            android:layout_marginBottom="10dp"/>
+
+    <AutoCompleteTextView
+            android:id="@+id/autocomplete_product"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/box"
+            android:textColor="#000000"
+            android:paddingLeft="5dp"/>
+
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="70dp"
+            android:id="@+id/button"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp"
+            android:background="@drawable/submit"
+            android:textColor="#ffffffff"
+            android:textSize="30dp"/>
+<!--
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/textView6"
+            android:background="#ff11d524"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" android:editable="false"/>
+
+    <Spinner
+            android:id="@+id/city_spinner"
+            android:tag="city_spinner"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:focusableInTouchMode="false"
+            android:longClickable="false"
+            android:visibility="visible"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:spinnerMode="dropdown"
+            android:background="#FF20B73B"
+            android:popupBackground="@android:drawable/dialog_holo_dark_frame"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/textView4"
+            android:background="#ff0b4c12"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp"/>
+
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/textView7"
+            android:background="#ff11d524"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+
+    <Spinner
+            android:id="@+id/product_spinner"
+            android:tag="product_spinner"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:background="#FF20B73B"
+            android:popupBackground="@android:drawable/dialog_holo_dark_frame"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/textView5"
+            android:background="#FF0B4C12"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" android:layout_marginBottom="60dp"/>
+-->
+</LinearLayout>

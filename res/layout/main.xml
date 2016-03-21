@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffe2e2e2"
+        android:divider="#ff000000"
+        android:dividerPadding="2dp"
+        android:focusable="true">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="175dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/logo"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/entername"
+        android:autoText="false"
+        android:text="Enter Company/Manufacturer Name"
+        android:layout_gravity="center"
+        android:textColor="#ff21c800"
+        android:textSize="30dp"
+        android:layout_marginBottom="0dp"/>
+
+    <AutoCompleteTextView
+        android:id="@+id/autocomplete_company"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="#000000"
+        android:background="@drawable/box"
+        android:paddingLeft="5dp"
+        android:hint="Company"
+        android:layout_marginBottom="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/entercity"
+        android:autoText="false"
+        android:text="Select City"
+        android:layout_gravity="center"
+        android:textColor="#ff21c800"
+        android:textSize="30dp"
+        android:layout_marginBottom="0dp"/>
+
+    <AutoCompleteTextView
+        android:id="@+id/autocomplete_city"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:singleLine="true"
+        android:selectAllOnFocus="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/box"
+        android:textColor="#000000"
+        android:paddingLeft="5dp"
+        android:hint="City"/>
+
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:id="@+id/button"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:background="@drawable/submit"
+        android:textColor="#ffffffff"
+        android:textSize="30dp"
+        android:clickable="false"/>
+
+</LinearLayout>

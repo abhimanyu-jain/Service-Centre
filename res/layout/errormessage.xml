@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#ffe2e2e2"
+              android:divider="#ff363636" android:clickable="false">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/errorMessage"
+            android:layout_gravity="center_horizontal"
+            android:text="Sorry, but no such company name was found!!!"
+            android:textColor="#f50057"
+            android:paddingTop="200dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:singleLine="false"/>
+</LinearLayout>
